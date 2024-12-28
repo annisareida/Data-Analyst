@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1VhhQV9s8yvIodjOmccApMkXO8kWwcgCP
 """
 
-!pip install streamlit
-
 import streamlit as st
 import pandas as pd
 import seaborn as sns
@@ -27,7 +25,7 @@ def preprocess_data(df):
 # Load dataset
 st.title("Car Sales Analysis Dashboard")
 st.write("Dataset sudah dimuat langsung dari file lokal.")
-dataset_path = '/content/used_car_dataset.csv'
+dataset_path = './used_car_dataset.csv'
 df = pd.read_csv(dataset_path)
 
 # Preprocessing data
