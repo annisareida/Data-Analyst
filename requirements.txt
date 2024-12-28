@@ -4,4 +4,4 @@ matplotlib
 seaborn==0.13.2
 pip==24.1.2
 plotly
-streamlit
+streamlit==1.41.1
